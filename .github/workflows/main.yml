@@ -1,13 +1,14 @@
 name: Yash Patle
 
 on:
- push:
-  branches: [ main ]
+  push:
+    branches:
+      - main
 
-  jobs:
-   demo:
+jobs:
+  demo:
     runs-on: ubuntu-latest
 
     steps:
-     - name: Greetings
-      run: echo "Hello"
+      - name: Greetings
+        run: echo "Hello"
